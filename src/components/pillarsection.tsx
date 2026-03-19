@@ -1,5 +1,5 @@
 import PillarCard from "./pillarcard"
-import { pillars } from "../data/pillardata"
+import { pillars } from "../data/data"
 
 
 export default function PillarSection() {
