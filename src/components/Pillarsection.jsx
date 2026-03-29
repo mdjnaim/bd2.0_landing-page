@@ -1,4 +1,4 @@
-import PillarCard from "./pillarcard"
+import PillarCard from "./Pillarcard"
 import { pillars } from "../data/data"
 
 

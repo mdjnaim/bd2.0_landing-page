@@ -1,5 +1,5 @@
 import { visions } from '../data/data';
-import VisionCard from './visioncard';
+import VisionCard from './Visioncard';
 
 
 export default function VisionSection() {

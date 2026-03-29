@@ -2,9 +2,9 @@ import { useState } from "react"
 import { questions, opinionOptions } from '../data/data';
 
 export default function OpinionSection() {
-    const [opinions, setOpinions] = useState<string[]>(questions.map(() => "Yes, I Agree"));
+    const [opinions, setOpinions] = useState(questions.map(() => "Yes, I Agree"));
 
-    const handleChange = (index: number, value: string) => {
+    const handleChange = (index, value) => {
         const updated = [...opinions];
         updated[index] = value;
         setOpinions(updated);
