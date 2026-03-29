@@ -9,13 +9,13 @@ export default function FooterSection() {
             Bangladesh 2.0
         </h2>
         <div className='flex items-center justify-center gap-6 mb-6'>
-            <a href="/">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer">
                 <img src={fbIcon} alt="Facebook" className='w-7 h-7 object-contain hover:opacity-75 hover:scale-110 transition-all duration-200'/>
             </a>
-            <a href="/">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">
                 <img src={instaIcon} alt="Instagram" className='w-7 h-7 object-contain hover:opacity-75 hover:scale-110 transition-all duration-200'/>
             </a>
-            <a href="/">
+            <a href="https://twitter.com" target="_blank" rel="noreferrer">
                 <img src={xIcon} alt="Twitter" className='w-7 h-7 object-contain hover:opacity-75 hover:scale-110 transition-all duration-200'/>
             </a>
         </div>
